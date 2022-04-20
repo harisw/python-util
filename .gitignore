@@ -1,3 +1,6 @@
+*.csv
+geckodriver*
+chromedriver
 *.bundle.*
 lib/
 node_modules/
