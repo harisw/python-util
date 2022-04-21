@@ -15,9 +15,7 @@ opt.headless=True
 def scrape_img(keyword):
     driver = webdriver.Firefox(options=opt)
     driver.get(url+keyword)
-    xpathQuery = '//*[@id="islrg"]/div[1]/div[1]/a[1]'
     cssQuery = '#islrg > div.islrc > div:nth-child(2) > a.wXeWr.islib.nfEiy'
-    secQuery = '//*[@id="Sva75c"]/div'
     cssSecQuery = '#Sva75c > div'
                 
     #CLick element first
@@ -28,7 +26,7 @@ def scrape_img(keyword):
         )
         element.click()
 
-        checkEl = WebDriverWait(driver, 2).until(
+        WebDriverWait(driver, 2).until(
             EC.presence_of_element_located((By.CSS_SELECTOR, cssSecQuery))
         )
         element = WebDriverWait(driver, 2).until(
@@ -57,7 +55,7 @@ from dask.diagnostics import ProgressBar
 import pandas as pd
 
 ProgressBar().register()
-df = pd.read_csv('./100k_preprocessed_recipes.csv')[:10000]
+df = pd.read_csv('./100k_preprocessed_recipes.csv')[:500]
 ddf = dd.from_pandas(df, npartitions=10) # find your own number of partitions
 ddf_update = ddf.apply(scrape_func, axis=1).compute()
-ddf_update.to_csv('../datasets/recipes_with_img', single_file=True)
+ddf_update.to_csv('../datasets/recipes_with_img.csv', index=False)
