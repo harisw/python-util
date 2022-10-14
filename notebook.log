@@ -1,0 +1,86 @@
+[I 18:13:56.244 NotebookApp] Serving notebooks from local directory: /home/harisw/projects/python-util
+[I 18:13:56.245 NotebookApp] The Jupyter Notebook is running at:
+[I 18:13:56.245 NotebookApp] http://localhost:8888/?token=7ec46330bea9a5f67987842e7d32b60fdc2d11a387734c65
+[I 18:13:56.245 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 18:13:56.245 NotebookApp] 
+    
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://localhost:8888/?token=7ec46330bea9a5f67987842e7d32b60fdc2d11a387734c65
+Opening in existing browser session.
+[I 18:13:56.807 NotebookApp] Accepting one-time-token-authenticated connection from 127.0.0.1
+[I 18:14:12.498 NotebookApp] Kernel started: c6737711-b7f9-4d21-8243-8fa23bcca5d0
+[I 18:14:13.462 NotebookApp] Adapting to protocol v5.1 for kernel c6737711-b7f9-4d21-8243-8fa23bcca5d0
+[I 18:16:12.317 NotebookApp] Saving file at /Filmio Seeder.ipynb
+[I 18:18:12.316 NotebookApp] Saving file at /Filmio Seeder.ipynb
+[I 18:19:41.326 NotebookApp] Kernel started: 402411c9-a203-4044-bfbc-49fb0416a7c9
+[I 18:19:41.984 NotebookApp] Adapting to protocol v5.1 for kernel 402411c9-a203-4044-bfbc-49fb0416a7c9
+[I 18:20:12.316 NotebookApp] Saving file at /Filmio Seeder.ipynb
+[I 18:22:12.316 NotebookApp] Saving file at /Filmio Seeder.ipynb
+[I 18:24:12.317 NotebookApp] Saving file at /Filmio Seeder.ipynb
+[I 18:26:12.316 NotebookApp] Saving file at /Filmio Seeder.ipynb
+[I 18:30:12.371 NotebookApp] Saving file at /Filmio Seeder.ipynb
+[I 18:32:12.318 NotebookApp] Saving file at /Filmio Seeder.ipynb
+[I 18:34:12.375 NotebookApp] Saving file at /Filmio Seeder.ipynb
+[I 18:36:12.367 NotebookApp] Saving file at /Filmio Seeder.ipynb
+[I 18:40:12.321 NotebookApp] Saving file at /Filmio Seeder.ipynb
+[I 18:42:12.318 NotebookApp] Saving file at /Filmio Seeder.ipynb
+[I 21:49:17.211 NotebookApp] Saving file at /Filmio Seeder.ipynb
+[I 21:51:17.209 NotebookApp] Saving file at /Filmio Seeder.ipynb
+[I 21:53:17.209 NotebookApp] Saving file at /Filmio Seeder.ipynb
+[I 21:55:17.212 NotebookApp] Saving file at /Filmio Seeder.ipynb
+[I 21:57:17.213 NotebookApp] Saving file at /Filmio Seeder.ipynb
+[I 21:59:17.211 NotebookApp] Saving file at /Filmio Seeder.ipynb
+[I 22:01:17.211 NotebookApp] Saving file at /Filmio Seeder.ipynb
+[I 22:03:17.261 NotebookApp] Saving file at /Filmio Seeder.ipynb
+[I 22:05:17.261 NotebookApp] Saving file at /Filmio Seeder.ipynb
+[I 22:07:17.210 NotebookApp] Saving file at /Filmio Seeder.ipynb
+[I 22:09:17.215 NotebookApp] Saving file at /Filmio Seeder.ipynb
+[I 22:11:17.209 NotebookApp] Saving file at /Filmio Seeder.ipynb
+[I 22:13:17.265 NotebookApp] Saving file at /Filmio Seeder.ipynb
+[IPKernelApp] WARNING | Parent appears to have exited, shutting down.
+[IPKernelApp] WARNING | Parent appears to have exited, shutting down.
+[I 17:40:19.951 NotebookApp] Writing notebook server cookie secret to /run/user/1000/jupyter/notebook_cookie_secret
+[I 17:40:21.921 NotebookApp] Serving notebooks from local directory: /home/harisw/projects/python-util
+[I 17:40:21.921 NotebookApp] The Jupyter Notebook is running at:
+[I 17:40:21.921 NotebookApp] http://localhost:8888/?token=677c3afe6ab1d0170a297fe250e348c724d0210be1ef428c
+[I 17:40:21.921 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 17:40:21.923 NotebookApp] 
+    
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://localhost:8888/?token=677c3afe6ab1d0170a297fe250e348c724d0210be1ef428c
+[I 17:40:28.258 NotebookApp] Accepting one-time-token-authenticated connection from 127.0.0.1
+Opening in existing browser session.
+[I 17:41:04.378 NotebookApp] Kernel started: 76c6e96e-c3fb-443b-82d9-685f2fe81016
+[I 17:41:05.172 NotebookApp] Adapting to protocol v5.1 for kernel 76c6e96e-c3fb-443b-82d9-685f2fe81016
+[I 17:43:04.025 NotebookApp] Saving file at /Mangareo.ipynb
+[IPKernelApp] WARNING | Parent appears to have exited, shutting down.
+[I 17:46:21.056 NotebookApp] Serving notebooks from local directory: /home/harisw/projects/python-util
+[I 17:46:21.056 NotebookApp] The Jupyter Notebook is running at:
+[I 17:46:21.056 NotebookApp] http://localhost:8888/?token=8a01964f3c2c60537b65cbc930e95d0106d5f5a4fc6aa380
+[I 17:46:21.056 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 17:46:21.059 NotebookApp] 
+    
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://localhost:8888/?token=8a01964f3c2c60537b65cbc930e95d0106d5f5a4fc6aa380
+[19074:19074:0604/174622.927035:ERROR:gpu_memory_buffer_support_x11.cc(44)] dri3 extension not supported.
+[I 17:46:23.078 NotebookApp] Accepting one-time-token-authenticated connection from 127.0.0.1
+Opening in existing browser session.
+[W 17:46:55.346 NotebookApp] 404 POST /api/kernels/76c6e96e-c3fb-443b-82d9-685f2fe81016/interrupt (127.0.0.1): Kernel does not exist: 76c6e96e-c3fb-443b-82d9-685f2fe81016
+[W 17:46:55.347 NotebookApp] Kernel does not exist: 76c6e96e-c3fb-443b-82d9-685f2fe81016
+[W 17:46:55.347 NotebookApp] 404 POST /api/kernels/76c6e96e-c3fb-443b-82d9-685f2fe81016/interrupt (127.0.0.1) 44.75ms referer=http://localhost:8888/notebooks/Mangareo.ipynb
+[W 17:47:02.202 NotebookApp] 404 POST /api/kernels/76c6e96e-c3fb-443b-82d9-685f2fe81016/interrupt (127.0.0.1): Kernel does not exist: 76c6e96e-c3fb-443b-82d9-685f2fe81016
+[W 17:47:02.202 NotebookApp] Kernel does not exist: 76c6e96e-c3fb-443b-82d9-685f2fe81016
+[W 17:47:02.203 NotebookApp] 404 POST /api/kernels/76c6e96e-c3fb-443b-82d9-685f2fe81016/interrupt (127.0.0.1) 1.69ms referer=http://localhost:8888/notebooks/Mangareo.ipynb
+[W 17:47:03.118 NotebookApp] 404 POST /api/kernels/76c6e96e-c3fb-443b-82d9-685f2fe81016/interrupt (127.0.0.1): Kernel does not exist: 76c6e96e-c3fb-443b-82d9-685f2fe81016
+[W 17:47:03.119 NotebookApp] Kernel does not exist: 76c6e96e-c3fb-443b-82d9-685f2fe81016
+[W 17:47:03.119 NotebookApp] 404 POST /api/kernels/76c6e96e-c3fb-443b-82d9-685f2fe81016/interrupt (127.0.0.1) 1.60ms referer=http://localhost:8888/notebooks/Mangareo.ipynb
+[I 17:47:04.012 NotebookApp] Saving file at /Mangareo.ipynb
+[I 17:47:07.107 NotebookApp] Kernel started: 7ec4741e-0242-46b5-aa33-315d696106c0
+[I 17:47:08.329 NotebookApp] Adapting to protocol v5.1 for kernel 7ec4741e-0242-46b5-aa33-315d696106c0
+[I 17:49:06.971 NotebookApp] Saving file at /Mangareo.ipynb
+[I 17:51:06.963 NotebookApp] Saving file at /Mangareo.ipynb
+[I 17:53:06.988 NotebookApp] Saving file at /Mangareo.ipynb
+[I 17:55:06.952 NotebookApp] Saving file at /Mangareo.ipynb

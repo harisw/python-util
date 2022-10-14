@@ -19,11 +19,9 @@ url = 'https://www.google.com/search?tbm=isch&q='
 DRIVER_PATH = './chromedriver'
 opt = Options()
 opt.headless=True
-
-limit = int(sys.argv[1])
-npartitions = int(sys.argv[2])
-print("limit: ", limit)
-print("partition: ", npartitions)
+filename = sys.argv[1]
+limit = int(sys.argv[2])
+npartitions = int(sys.argv[3])
 def scrape_img(keyword):
     driver = webdriver.Firefox(options=opt)
     driver.get(url+keyword)
@@ -63,7 +61,7 @@ def scrape_img(keyword):
         return filtered
 
 def scrape_func(row):
-    row['image'] = scrape_img(row['name'])
+    row['image'] = scrape_img(row['title'])
     return row
 
 
@@ -72,7 +70,7 @@ from dask.diagnostics import ProgressBar
 import pandas as pd
 
 ProgressBar().register()
-df = pd.read_csv('./100k_preprocessed_recipes.csv')[1000:limit]
+df = pd.read_csv(filename)[:limit]
 ddf = dd.from_pandas(df, npartitions=npartitions) # find your own number of partitions
 ddf_update = ddf.apply(scrape_func, axis=1).compute()
-ddf_update.to_csv('./recipes_with_img.csv', index=False)
+ddf_update.to_csv('./film_with_img.csv', index=False)
